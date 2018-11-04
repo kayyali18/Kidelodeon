@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   html,
@@ -26,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
   }
-`;
+`
 
-export default GlobalStyle;
+// Text Color: #ff4a6e
+// Background: #ffc093
+// Gradients: #ff700b - #ff275f
+
+export default GlobalStyle

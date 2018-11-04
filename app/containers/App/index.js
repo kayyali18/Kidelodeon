@@ -20,8 +20,8 @@ import GlobalStyle from '../../global-styles'
 
 const AppWrapper = styled.div`
   display: grid;
-  grid-template-rows: 1fr 9fr 1fr;
-  min-height: 100vh;
+  grid-template-rows: 8vh 84vh 8vh;
+  max-height: 100vh;
   background-color: gray;
 `
 
@@ -37,6 +37,9 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={HomePage} />
+        <Route exact path="/faq" component={HomePage} />
+        <Route exact path="/contact" component={HomePage} />
         <Route component={NotFoundPage} />
       </Switch>
       <Footer />

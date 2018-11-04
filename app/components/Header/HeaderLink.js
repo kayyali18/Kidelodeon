@@ -2,6 +2,29 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export default styled(Link)`
-  height: 100%;
-  width: 100px;
+  display: inline-flex;
+  padding: 0.25em 2em;
+  margin: 1em;
+  text-decoration: none;
+  border-radius: 8px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  user-select: none;
+  cursor: pointer;
+  outline: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  color: #ff4a6e;
+
+  &:active {
+    background: red;
+    color: #fff;
+  }
+
+  &:hover {
+    background: linear-gradient(#ff700b, #ff275f);
+    color: #fff;
+  }
 `
