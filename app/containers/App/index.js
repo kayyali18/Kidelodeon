@@ -20,9 +20,9 @@ import GlobalStyle from '../../global-styles'
 
 const AppWrapper = styled.div`
   display: grid;
-  grid-template-rows: 8vh 84vh 8vh;
+  grid-template-rows: 1fr 8fr 1fr;
   max-height: 100vh;
-  background-color: gray;
+  background: linear-gradient(#ff700b, #ff275f);
 `
 
 export default function App() {

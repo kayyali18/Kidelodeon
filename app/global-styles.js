@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
   html,
   body {
     height: 100%;
-    width: 100%;
+    width: 100vw;
   }
 
   body {
@@ -31,5 +31,5 @@ const GlobalStyle = createGlobalStyle`
 // Text Color: #ff4a6e
 // Background: #ffc093
 // Gradients: #ff700b - #ff275f
-
+// Footer: #402c28
 export default GlobalStyle

@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 const Wrapper = styled.footer`
   display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #666;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #402c28;
 `
 
 export default Wrapper
